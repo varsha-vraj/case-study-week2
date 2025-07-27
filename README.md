@@ -3,37 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Ecommerce Data Vault 🚀</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #fdfdfd;
-      padding: 2em;
-      line-height: 1.6;
-    }
-    h1 {
-      color: #2e86de;
-    }
-    h2 {
-      color: #27ae60;
-    }
-    code {
-      background: #f4f4f4;
-      padding: 2px 4px;
-      border-radius: 4px;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      overflow-x: auto;
-      border-radius: 6px;
-    }
-    img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin: 10px 0;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-  </style>
+
 </head>
 <body>
 
