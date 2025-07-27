@@ -1,0 +1,36 @@
+Ecommerce Data Vault — Hash Collision Handling Strategy
+
+In this project, hash keys are generated using SHA-256 over the business keys
+(such as customer_id, product_id, order_id). These hash keys act as surrogate keys
+(HKs) in Hubs, Links, and Satellites to uniquely identify records in a deterministic,
+repeatable way.
+
+
+Hash Function Used
+I used Python’s hashlib library to compute SHA-256 hashes over concatenated
+business keys.
+
+Example:
+    hash_input = customer_id
+    Customer_HK = SHA256(customer_id)
+
+   
+
+How hash collisions are handled
+
+- SHA-256 produces a 64-character hexadecimal string (256 bits)
+
+Mitigation Strategies in Place:
+
+  1. Using SHA-256 (cryptographic-grade hash)
+  2. Ensuring deterministic ordering and delimiter usage when hashing multiple columns
+  3. Avoiding unnecessary whitespace or nulls in input fields
+  4. Documented hash generation process in `dv_utils.generate_hash()`
+
+Conclusion:
+
+None observed during testing, even with synthetic duplicate-like keys.
+
+Maintained by:
+Varsha V  
+Email: varshaa112003@gmail.com
