@@ -55,7 +55,7 @@ ecommerce-data-vault/
   <img src="docs/data_vault_erd.png" alt="Data Vault ERD">
 
   <p><strong>Star Schema ERD:</strong></p>
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/docs/star_erd.png" alt="Star Schema ERD">
+  <img src="docs/star_schema_erd.png" alt="Star Schema ERD">
 
   <h2>🏁 Final Tables</h2>
   <ul>
