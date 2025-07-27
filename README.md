@@ -12,6 +12,13 @@
   <p>
     This project showcases a complete end-to-end data warehouse architecture using <strong>Data Vault 2.0</strong>, 
     <strong>Delta Lake</strong>, and <strong>PySpark</strong>. Built as part of a real-world case study to transform raw ecommerce data into a scalable, auditable, and analytics-ready platform.
+    <h2>🔐 GDPR & Compliance</h2>
+<ul>
+  <li>Implemented Delta Lake DELETE operations to enable user data removal</li>
+  <li>Dynamically computed business key hashes and deleted satellite data securely</li>
+  <li>Example: Removed customer with ID <code>C002</code> using hashed Customer_HK</li>
+</ul>
+
   </p>
 
   <h2>🧰 Tech Stack</h2>
