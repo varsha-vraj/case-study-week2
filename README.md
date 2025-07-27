@@ -52,7 +52,7 @@ ecommerce-data-vault/
 
   <h2>📊 ER Diagrams</h2>
   <p><strong>Data Vault ERD:</strong></p>
-  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/docs/datavault_erd.png" alt="Data Vault ERD">
+  <img src="docs/data_vault_erd.png" alt="Data Vault ERD">
 
   <p><strong>Star Schema ERD:</strong></p>
   <img src="https://raw.githubusercontent.com/your-username/your-repo/main/docs/star_erd.png" alt="Star Schema ERD">
