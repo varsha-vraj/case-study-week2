@@ -16,7 +16,7 @@
 <ul>
   <li>Implemented Delta Lake DELETE operations to enable user data removal</li>
   <li>Dynamically computed business key hashes and deleted satellite data securely</li>
-  <li>Example: Removed customer with ID <code>C002</code> using hashed Customer_HK</li>
+  
 </ul>
 
   </p>
